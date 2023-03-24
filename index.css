@@ -1,6 +1,9 @@
 .entete {
   border: solid;
   border-color: black;
+  padding: 5px 50px;
+  margin-top: 20px;
+  font-size: 2rem;
 }
 .container {
   border: solid;
@@ -9,6 +12,8 @@
 .piedpage {
   border: solid;
   border-color: red;
+  display: flex;
+  justify-content: space-around;
 }
 .deuxieme {
   border: solid;
@@ -17,10 +22,25 @@
 
 .ent1 p {
   display: inline;
-  padding-top: 500px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 5px 50px 50px 50px;
   font-size: 1rem;
-  color: chocolate;
+  justify-content: center;
+}
+.deuxieme {
+  display: flex;
+}
+.premiere {
+  display: flex;
+  justify-content: space-around;
+}
+.premiere vid {
+  justify-content: end;
+}
+.formulaire {
+  border: solid;
+  border-color: black;
+}
+.cnx {
+  border: solid;
+  border-color: brown;
 }
