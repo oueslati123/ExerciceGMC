@@ -1,0 +1,26 @@
+.entete {
+  border: solid;
+  border-color: black;
+}
+.container {
+  border: solid;
+  border-color: brown;
+}
+.piedpage {
+  border: solid;
+  border-color: red;
+}
+.deuxieme {
+  border: solid;
+  border-color: darkblue;
+}
+
+.ent1 p {
+  display: inline;
+  padding-top: 500px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1rem;
+  color: chocolate;
+}
